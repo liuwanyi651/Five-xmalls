@@ -1,0 +1,44 @@
+<template>
+  <div class="box felx">
+    <div class="left flex j-center ">
+      <div class="round bgc-w">
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: '',
+  props:{},
+  data () {
+    return {
+    }
+  },
+  components: {},
+  methods: {},
+  mounted() {},
+  computed: {},
+  watch: {}
+}
+</script>
+
+<style lang="scss" scoped>
+.box{
+  height: 100px;
+}
+.left{
+  width: 45%;
+  align-items: center;
+  .round{
+    width: 48px;;
+    height: 48px;
+    border-radius:50%;
+    margin: auto 0 ;
+  }
+}
+.right{
+  width: 55%;
+}
+</style>
